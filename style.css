@@ -1,0 +1,125 @@
+nav{
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    form{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   align-items: center;
+   
+}
+}
+
+
+form{
+    display: flex;
+   flex-wrap: wrap; 
+   
+}
+.inputs:focus{
+    outline: none;
+
+}
+
+.inputs{
+    flex-basis: 30%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: medium;
+    border-radius: 8px;
+    border: 0ch;
+    box-shadow: 2px 2px 2px 0px;
+    
+}
+.search{
+    display: flex;
+    margin: auto;
+    min-width: 300px;
+    margin-bottom: 25px;
+    height: 40px;
+    border: 0ch;
+    background: rgb(242, 239, 239);
+    box-shadow: 2px 2px 2px 0px;
+    text-align: center;
+        
+}
+
+.body{
+    margin-top: 20px;
+}
+.btn{
+    cursor: pointer;
+    margin-left: 10px;
+    height: 35px;
+    border-radius: 8px;
+    border: 0px;
+    background: lightgreen;
+    color: black;
+    width: 80px;
+    
+}
+.btn:hover{
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 0px;
+    background: black;
+    color: white;
+}
+
+.cardContent{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 12px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    
+}
+.cardImg{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+.delete{
+    align-self:flex-end ;
+    background: white;
+    cursor: pointer;
+    padding-right: 14px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    border: 0;
+   margin: 2px 2px 0px 0px;
+    color: black;
+   
+}
+
+.delete:hover{
+    background: black;
+    color: white;
+}
+.ordered{
+    order: -999
+}
+
+.hr{
+    color: brown;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 10px;
+}
