@@ -116,10 +116,3 @@ form{
 .ordered{
     order: -999
 }
-
-.hr{
-    color: brown;
-    font-weight: 600;
-    text-align: center;
-    padding-left: 10px;
-}
